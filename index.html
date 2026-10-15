@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aparna | Web Developer Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar container">
+            <a href="#home" class="logo">Aparna<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero container">
+
+            <div class="hero-content">
+                <p class="tagline">HELLO, I'M</p>
+
+                <h1>Aparna <br>
+                    <span>Web Developer</span>
+                </h1>
+
+                <p class="hero-description">
+                    I am an aspiring full-stack developer passionate
+                    about building modern, responsive, and user-friendly
+                    websites using HTML, CSS, JavaScript, and Java.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/yourusername"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourusername"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Avatar -->
+            <div class="hero-image">
+                <div class="image-circle">
+                    <img src="images/profile.jpg"
+                         alt="Aparna's professional profile photo"
+                         onerror="this.style.display='none';
+                         this.nextElementSibling.style.display='flex';">
+
+                    <div class="avatar-placeholder">
+                        A
+                    </div>
+                </div>
+
+                <div class="floating-card">
+                    <span>💻</span>
+                    <div>
+                        <strong>Web Developer</strong>
+                        <small>Learning & Building</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="tagline">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        Hi! I'm Aparna, an aspiring web developer
+                        beginning my journey in the IT industry.
+                        I enjoy creating clean, attractive, and
+                        responsive websites using modern web technologies.
+                    </p>
+
+                    <p>
+                        I am currently improving my skills in HTML,
+                        CSS, JavaScript, and Java, with a goal of
+                        becoming a full-stack developer. I love
+                        learning new technologies and turning ideas
+                        into real-world projects.
+                    </p>
+
+                    <a href="#contact" class="btn primary-btn">
+                        Let's Connect
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="tagline">WHAT I WORK WITH</p>
+                    <h2>My <span>Skills</span></h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML5</h3>
+                        <p>Semantic and accessible web structure</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts and modern styling</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web pages</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h3>Java</h3>
+                        <p>Programming and backend fundamentals</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>MySQL</h3>
+                        <p>Database and SQL fundamentals</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and project hosting</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="tagline">MY RECENT WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image project-one">
+                            <span>💊</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-number">PROJECT 01</p>
+                            <h3>Online Medicine Store</h3>
+
+                            <p>
+                                A responsive pharmacy website design
+                                featuring medicine categories, product
+                                cards, a shopping cart interface, and
+                                an easy-to-use layout.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://github.com/yourusername/medicine-store"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                GitHub Repository ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image project-two">
+                            <span>🌱</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-number">PROJECT 02</p>
+                            <h3>Online Pesticide Shop</h3>
+
+                            <p>
+                                An online agricultural shop concept
+                                for browsing crop protection products,
+                                viewing product details, and managing
+                                customer orders.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                            </div>
+
+                            <a href="https://github.com/yourusername/pesticide-shop"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                GitHub Repository ↗
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="tagline">LET'S WORK TOGETHER</p>
+                    <h2>Get In <span>Touch</span></h2>
+                </div>
+
+                <div class="contact-card">
+                    <p>
+                        I'm open to internship opportunities,
+                        collaborations, and connecting with other
+                        developers. Feel free to reach out!
+                    </p>
+
+                    <div class="contact-details">
+                        <p>
+                            <strong>Name:</strong> Aparna
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:yourname@example.com">
+                                yourname@example.com
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>GitHub:</strong>
+                            <a href="https://github.com/yourusername"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                github.com/yourusername
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>LinkedIn:</strong>
+                            <a href="https://linkedin.com/in/yourusername"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                linkedin.com/in/yourusername
+                            </a>
+                        </p>
+                    </div>
+
+                    <a href="mailto:yourname@example.com"
+                       class="btn primary-btn">
+                        Send Me an Email
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Aparna. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
